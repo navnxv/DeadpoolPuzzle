@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Sliding Puzzle Game</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>Sliding Puzzle Game</h1>
+	
+	<h3 class="org">Completed Puzzle
+		<img class = "org" src = "org.jpg" alt = "Deadpool"/>
+		<button class="xolo" type="button" id="button">New Game</button>
+	</h3>
+	<table border="1" id="tm">
+	<tr>
+	    <td colspan ="2" id="tme1">Time: 0</td>
+		<td id="tme2">Moves: 0</td>
+	</tr>
+	</table>
+	<table id = "table" border="10">
+        <p id="won"  style="opacity: 1;">Game Won</p>
+		<tr>
+			<td id="img1" class="tile"></td>
+			<td id="img2" class="tile"></td>
+			<td id="img3" class="tile"></td>
+		</tr>
+		<tr>
+			<td id="img4" class="tile"></td>
+			<td id="img5" class="tile"></td>
+			<td id="img6" class="tile"></td>
+		</tr>
+		<tr>
+			<td id="img7" class="tile"></td>
+			<td id="img8" class="tile"></td>
+			<td id="img9" class="tile"></td>
+		</tr>
+        
+	</table>
+		
+	<h1>Instructions: </h1>
+		<p>Click anywhere to scramble the images. Click on the image you want to move into the blank space. Enjoy </p>
+</body>
+<script src="jscript.js"></script>
+</html>
